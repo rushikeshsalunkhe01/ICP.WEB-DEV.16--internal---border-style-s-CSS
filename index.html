@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapes Webpage</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            color: #333;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #ffebcd;
+            color: #8b0000;
+            font-size: 36px;
+            border: 2px solid #8b0000;
+            border-radius: 0px 50px 0px 40px;
+            display: inline-block;
+            width: 90%;
+        }
+
+        .navigation {
+            background-color: #deb887;
+            border: 2px solid #8b0000;
+            border-radius: 0px 50px 0px 40px;
+            display: inline-block;
+            width: 90%;
+        }
+
+        .navigation a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+            width: 30%;
+        }
+
+        .section {
+            background-color: #fafad2;
+            border: 2px solid #4b0082;
+            border-radius: 0px 50px 0px 40px;
+            display: inline-block;
+            width: 90%;
+        }
+
+        .section h2 {
+            color: #4b0082;
+            font-size: 28px;
+        }
+
+        .footer {
+            background-color: #deb887;
+            color: #fff;
+            font-size: 14px;
+            border: 2px solid #8b0000;
+            border-radius: 0px 50px 0px 40px;
+            display: inline-block;
+            width: 90%;
+        }
+
+        .shape {
+            display: inline-block;
+            margin: 20px;
+            font-size: 24px;
+            line-height: 150px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .circle {
+            background-color: #ff69b4;
+            width: 150px;
+            height: 150px;
+            border: 5px solid #ff1493;
+            border-radius: 50%;
+        }
+
+        .rounded-rectangle {
+            background-color: #98fb98;
+            color: #006400;
+            width: 300px;
+            height: 150px;
+            border: 5px solid #228b22;
+            border-radius: 0px 50px 0px 40px;
+        }
+
+        .square {
+            background-color: #add8e6;
+            width: 150px;
+            height: 150px;
+            border: 5px solid #00008b;
+            border-radius: 0px;
+        }
+
+        .oval {
+            background-color: #ffa07a;
+            width: 200px;
+            height: 100px;
+            border: 5px solid #ff4500;
+            border-radius: 50%;
+        }
+
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 75px solid transparent;
+            border-right: 75px solid transparent;
+            border-bottom: 150px solid #4682b4;
+            border-radius: 0px 50px 0px 40px;
+            line-height: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        Shapes Webpage
+    </header>
+    <nav class="navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home" class="section">
+        <h2>Home</h2>
+        <p>Welcome to this shapes webpage. This section provides an introduction and welcomes users to the site.</p>
+    </section>
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>This section contains information about the purpose of the webpage and any relevant details about the creators or the content.</p>
+    </section>
+    <section id="shapes" class="section">
+        <h2>Shapes</h2>
+        <div class="shape circle">Circle</div>
+        <div class="shape rounded-rectangle">Rounded Rectangle</div>
+        <div class="shape square">Square</div>
+        <div class="shape oval">Oval</div>
+        <div class="shape triangle"></div>
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, feel free to reach out through this section.</p>
+    </section>
+    <footer class="footer">
+        &copy; 2024 Shapes Webpage. All rights reserved.
+    </footer>
+</body>
+</html>
